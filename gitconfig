@@ -1,0 +1,26 @@
+[user]
+  email = "sotirios.bakagiannis@gmail.com"
+  name = "Sotiri Bakagiannis"
+[alias]
+  co = checkout
+  count = !git shortlog -sn
+  unstage = reset HEAD --
+  abort = reset --hard HEAD
+  undo = reset HEAD~1
+  recommit = commit --amend
+[core]
+  editor = nano
+  pager = less -R
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+[color]
+  ui = auto
+[push]
+  default = simple
+[remote "origin"]
+  receivepack = git receive-pack
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[instaweb]
+  httpd = webrick

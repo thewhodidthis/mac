@@ -1,0 +1,7 @@
+drop-empty-elements: no
+indent: auto
+merge-divs: no
+merge-spans: no
+preserve-entities: yes
+quiet: yes
+tidy-mark: no
