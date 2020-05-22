@@ -12,6 +12,8 @@
   autocrlf = input
   excludesfile = ~/.gitignore_global
   pager = less -R
+[pager]
+  branch = false
 [color]
   ui = auto
 [push]
