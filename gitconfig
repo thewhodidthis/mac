@@ -2,17 +2,16 @@
   email = "sotirios.bakagiannis@gmail.com"
   name = "Sotiri Bakagiannis"
 [alias]
+  abort = reset --hard HEAD
   co = checkout
   count = !git shortlog -sn
-  unstage = reset HEAD --
-  abort = reset --hard HEAD
-  undo = reset HEAD~1
   recommit = commit --amend
+  undo = reset HEAD~1
+  unstage = reset HEAD --
 [core]
-  editor = nano
-  pager = less -R
-  excludesfile = ~/.gitignore_global
   autocrlf = input
+  excludesfile = ~/.gitignore_global
+  pager = less -R
 [color]
   ui = auto
 [push]
