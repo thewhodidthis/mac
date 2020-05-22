@@ -16,8 +16,6 @@
   ui = auto
 [push]
   default = simple
-[remote "origin"]
-  receivepack = git receive-pack
 [filter "media"]
   clean = git-media-clean %f
   smudge = git-media-smudge %f
