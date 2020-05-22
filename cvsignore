@@ -1,3 +1,4 @@
+# Global $HOME based rsync(1) excludes
 .DS_Store
 .editorconfig
 .git
