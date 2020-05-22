@@ -11,7 +11,7 @@ alias df='df -kTh'
 alias du='du -kh'
 
 # Make pretty
-alias ls='ls -lG'
+alias ls='ls -l'
 
 # Show hidden
 alias ll='ls -a'
