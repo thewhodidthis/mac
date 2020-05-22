@@ -1,4 +1,4 @@
-# Use auto indentation
+# Automatically indent
 set autoindent
 
 # Use bold instead of reverse video text
