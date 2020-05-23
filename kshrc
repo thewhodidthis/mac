@@ -1,3 +1,4 @@
+# NOTE: This file is relatively safe to source as .bashrc
 # Make readline like
 set -o emacs
 
