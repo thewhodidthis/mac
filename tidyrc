@@ -5,3 +5,4 @@ merge-spans: no
 preserve-entities: yes
 quiet: yes
 tidy-mark: no
+wrap: 0
