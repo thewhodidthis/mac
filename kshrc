@@ -1,4 +1,6 @@
-# NOTE: This file is relatively safe to source as .bashrc
+# NOTE: These settings are bash(1) compatible. Unedited, this
+# file would be safe to source as a '.bashrc' in disguise
+
 # Make readline like
 set -o emacs
 
