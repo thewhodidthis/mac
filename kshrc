@@ -28,7 +28,7 @@ title() {
   # Produces a bracketless $PS1 and even if Terminal.app refers to 'Ps' as
   # likely 6 or 7 in the 'ESC ] Ps ; Pt BEL' escape sequence, choosing 0
   # helps avoid the silly icons that are otherwise added in
-  printf '\e]0;%s\a' "$(hostname -s):$(basename `pwd`)"
+  printf '\e]0;%s\a' "$(hostname -s):${PWD##*/}"
 }
 
 # When logging in/out

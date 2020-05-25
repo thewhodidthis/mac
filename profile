@@ -1,7 +1,7 @@
 # Tweak main prompt rephrasing '[\h:\W]\$ ' because
 # the ksh(1) version that ships with macOS lacks
 # backslash-escaped special character support
-export PS1='[$(hostname -s):$(basename `pwd`)]\$ '
+export PS1='[$(hostname -s):${PWD##*/}]\$ '
 
 # Load options, aliases, functions
 export ENV="$HOME/.kshrc"
