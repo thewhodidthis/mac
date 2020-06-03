@@ -6,16 +6,16 @@ Contains personal preferences and configurations for everyday commands and progr
 |:------------------ |:----------------------------------------------------------------------------------------------- | 
 | _cvsignore_        | A global, `-C` flag equivalent, whitespace delimited list of files for `rsync(1)` to ignore     |
 | _editorconfig_     | Unified per language settings, using spaces instead of tabs no question                         |
-| _gitconfig_        | Global settings such as `user.email` or [aliases]                                               |
+| _gitconfig_        | Global settings such as `user.email` and [aliases]                                              |
 | _gitignore_        | A global `core.excludesfile` for `$HOME`                                                        |
 | _hushlogin_        | Makes `login(1)` quieter; `-q` flag equivalent                                                  |
 | _inputrc_          | Up and down arrow key bindings for `readline(3)`                                                |
-| _irbrc_            | Just a few settings for when running [interactive Ruby]                                         |
-| _kshrc_            | [KornShell] aliases, functions, and importantly enabling **emacs** mode                         |
-| _lesskey_          | Run `lesskey(1)` having placed into `$HOME` to generate `~/.less` & avoid `~/.lesshst` creation |
-| _nanorc_           | Tweaks for among others indentation, wrapping, enabling mouse support                           |
+| _irbrc_            | Cosmetic tweaks for when running [interactive Ruby]                                             |
+| _kshrc_            | [KornShell] aliases, functions, and, importantly, enabling **emacs** mode                       |
+| _lesskey_          | Placed into `$HOME` and run `lesskey(1)` to generate `~/.less` and avoid `~/.lesshst` creation  |
+| _nanorc_           | Tweaks for indentation, wrapping, enabling mouse support                                        |
 | _npmrc_            | Defaults for `npm-init`[npm-init], for auto populating `package.json` for example               |
-| _profile_          | Initialization file, executed for login shells after `/etc/profile`, prompt settings etc.       |
+| _profile_          | Initialization file executed for login shells after `/etc/profile`, prompt settings etc.        |
 | _screenrc_         | Turn off `startup_message` ao.                                                                  |
 | _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (eg. wrapping) are extremely annoying        |
 | _vimrc_            | Be IMproved                                                                                     |
