@@ -9,7 +9,10 @@
 *.sqlite
 *.swp
 
-# Custom
+# Used instead of '.env', conveniently ignored by `npm-pack`
+.npmrc
+
+# Used for rsyncing public folders
 .ivory
 
 # Just in case
