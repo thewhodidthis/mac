@@ -10,7 +10,7 @@
   unstage = reset HEAD --
 [core]
   autocrlf = input
-  excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore
   pager = less -R
 [pager]
   branch = false
