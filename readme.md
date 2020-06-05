@@ -1,6 +1,6 @@
 ## about
 
-Contains personal preferences and configurations for everyday commands and programs across Unix-like systems.
+Contains personal preferences and configurations for everyday commands and programs.
 
 | File               | Summary                                                                                         |
 |:------------------ |:----------------------------------------------------------------------------------------------- | 
