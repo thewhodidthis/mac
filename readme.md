@@ -27,7 +27,7 @@ Contains personal preferences and configurations for everyday commands and progr
 
 ## setup
 
-Download somewhere convenient. For example,
+Download some place convenient. For example,
 
 ```sh
 # Hide inside of $HOME directory, no pun intended :)
