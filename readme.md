@@ -12,7 +12,7 @@ Contains personal preferences and configurations for everyday commands and progr
 | _inputrc_          | Up and down arrow key bindings for `readline(3)`                                                |
 | _irbrc_            | Cosmetic tweaks for when running [interactive Ruby]                                             |
 | _kshrc_            | [KornShell] aliases, functions, and enabling **emacs** mode                                     |
-| _lesskey_          | Placed into `$HOME` and run `lesskey(1)` to generate `~/.less` and avoid `~/.lesshst` creation  |
+| _lesskey_          | Place into `$HOME` and run `lesskey(1)` to generate `~/.less` and avoid `~/.lesshst` creation   |
 | _nanorc_           | Tweaks for indentation, wrapping, enabling mouse support                                        |
 | _npmrc_            | Defaults for `npm-init(1)` for auto populating `package.json` for example                       |
 | _profile_          | Initialization file executed for login shells after `/etc/profile`, prompt settings etc.        |
