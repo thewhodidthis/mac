@@ -4,5 +4,6 @@ merge-divs: no
 merge-spans: no
 preserve-entities: yes
 quiet: yes
+show-warnings: no
 tidy-mark: no
 wrap: 0
