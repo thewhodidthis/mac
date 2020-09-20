@@ -107,6 +107,7 @@ set whichwrap=b,s,h,l,<,>,[,]
 " fix coloring
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufNewFile,BufRead *.mjs set filetype=javascript
+autocmd BufNewFile,BufRead *.cjs set filetype=javascript
 autocmd BufNewFile,BufRead *.svelte set filetype=html
 autocmd BufNewFile,BufRead *.vue set filetype=html
 
