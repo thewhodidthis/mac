@@ -11,6 +11,9 @@ catch
   set t_Co=0
 endtry
 
+" comes in handy when e.g. $LANG is empty certain characters would go unrecognized
+set encoding=utf-8
+
 " indent based on previous line
 set autoindent
 
