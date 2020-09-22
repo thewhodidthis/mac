@@ -13,11 +13,12 @@ Contains personal preferences and configurations for everyday commands and progr
 | _irbrc_            | Cosmetic tweaks for when running [interactive Ruby]                                             |
 | _kshrc_            | [KornShell] aliases, functions, and enabling **emacs** mode                                     |
 | _lesskey_          | Place into `$HOME` and run `lesskey(1)` to generate `~/.less` and avoid `~/.lesshst` creation   |
+| _mailrc_           | Tells `mail(1)` to 'hold', 'keep', and 'keepsave'                                               |
 | _nanorc_           | Tweaks for indentation, wrapping, enabling mouse support                                        |
 | _npmrc_            | Defaults for `npm-init(1)` for auto populating `package.json` for example                       |
 | _profile_          | Initialization file executed for login shells after `/etc/profile`, prompt settings etc.        |
 | _screenrc_         | Turn off `startup_message` ao.                                                                  |
-| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (eg. wrapping) are extremely annoying        |
+| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (e.g. wrapping) are extremely annoying       |
 | _vimrc_            | Be IMproved                                                                                     |
 | _wgetrc_           | Saner defaults for when downloading pages recursively for example                               |
 
@@ -48,7 +49,7 @@ Save local changes separately. For example,
 
 ```sh
 # Start a new branch to keep track of per machine
-# edits named after eg. `hostname(1)`
+# edits named after e.g. `hostname(1)`
 git checkout -b gina
 ```
 
