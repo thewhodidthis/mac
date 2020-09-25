@@ -18,7 +18,7 @@ Contains personal preferences and configurations for everyday commands and progr
 | _npmrc_            | Defaults for `npm-init(1)` for auto populating `package.json` for example                       |
 | _profile_          | Initialization file executed for login shells after `/etc/profile`, prompt settings etc.        |
 | _screenrc_         | Turn off `startup_message` ao.                                                                  |
-| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (e.g. wrapping) are extremely annoying       |
+| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (e.g., wrapping) are extremely annoying       |
 | _vimrc_            | Be IMproved                                                                                     |
 | _wgetrc_           | Saner defaults for when downloading pages recursively for example                               |
 
@@ -49,7 +49,7 @@ Save local changes separately. For example,
 
 ```sh
 # Start a new branch to keep track of per machine
-# edits named after e.g. `hostname(1)`
+# edits named after e.g., `hostname(1)`
 git checkout -b gina
 ```
 
