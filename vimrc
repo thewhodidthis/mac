@@ -1,14 +1,11 @@
-" enable file type detection and indentation
-filetype plugin indent on
-
-" allow highlighting regardless of color scheme
-syntax enable
+" be iMproved
+set nocompatible
 
 " disable coloring altogether if chosen scheme unavailable
 try
   colorscheme robert
 catch
-  set t_Co=0
+  set t_Co=0 | hi LineNr term=NONE
 endtry
 
 " comes in handy when e.g. $LANG is empty certain characters would go unrecognized
@@ -59,9 +56,6 @@ set listchars=tab:▸\ ,eol:¬
 " enable mouse use in all modes
 set mouse+=a
 
-" be iMproved
-set nocompatible
-
 " always show line numbers
 set number
 
@@ -106,6 +100,12 @@ set undolevels=1000
 
 " make movement keys wrap to the next/previous line
 set whichwrap=b,s,h,l,<,>,[,]
+
+" allow highlighting regardless of color scheme
+syntax enable
+
+" enable file type detection and indentation
+filetype plugin indent on
 
 " fix coloring
 autocmd BufNewFile,BufRead *.md set filetype=markdown
