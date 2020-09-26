@@ -53,16 +53,6 @@ Save local changes separately. For example,
 git checkout -b gina
 ```
 
-Adjust `$PATH` and build further by adding executables into `~/.files/bin`. For example,
-
-```sh
-# Good for custom scripts or else inaccessible commands
-export PATH="$HOME/.files/bin:$PATH"
-
-# Bring the macOS built-in JS REPL as little closer
-ln -s /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc ~/.files/bin
-```
-
 Would rather be using Bash? No problem, just `ln -fs ~/.files/kshrc ~/.bashrc`, then source in `~/.profile` along the lines of:
 
 ```sh
