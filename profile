@@ -6,6 +6,9 @@ export PS1='[$(hostname -s):${PWD##*/}]\$ '
 # Load options, aliases, functions
 export ENV="$HOME/.kshrc"
 
+# Override '.lesshst' default, lesskey(1) missing on macOS factory install
+export LESSHISTFILE="$HOME/.less_history"
+
 # Dedupe history
 export HISTCONTROL=ignoredups
 
