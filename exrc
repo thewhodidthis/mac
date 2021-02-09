@@ -1,7 +1,7 @@
-set number
 set autoindent
 set nowrapscan
-set showmode
-set ts = 2
+set number
 set shiftwidth=2
+set showmode
+set ts=2
 map Q :q!
