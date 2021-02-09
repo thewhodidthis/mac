@@ -1,4 +1,3 @@
-set autoindent
 set nowrapscan
 set number
 set shiftwidth=2
