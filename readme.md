@@ -6,7 +6,7 @@ Contains personal preferences and configurations for everyday commands and progr
 |:------------------ |:----------------------------------------------------------------------------------------------- | 
 | _cvsignore_        | A global, `-C` flag equivalent, whitespace delimited list of files for `rsync(1)` to ignore     |
 | _editorconfig_     | Unified per language settings, using spaces instead of tabs no question                         |
-| _exrc_             | For when editing as root                                                                        |
+| _exrc_             | Prefer `vi(1)` on OpenBSD                                                                       |
 | _gitconfig_        | Global settings such as `user.email` and [aliases]                                              |
 | _gitignore_        | A global `core.excludesfile` for `$HOME`                                                        |
 | _hushlogin_        | Makes `login(1)` quieter                                                                        |
