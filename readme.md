@@ -6,6 +6,7 @@ Contains personal preferences and configurations for everyday commands and progr
 |:------------------ |:----------------------------------------------------------------------------------------------- | 
 | _cvsignore_        | A global, `-C` flag equivalent, whitespace delimited list of files for `rsync(1)` to ignore     |
 | _editorconfig_     | Unified per language settings, using spaces instead of tabs no question                         |
+| _exrc_             | For when editing as root                                                                        |
 | _gitconfig_        | Global settings such as `user.email` and [aliases]                                              |
 | _gitignore_        | A global `core.excludesfile` for `$HOME`                                                        |
 | _hushlogin_        | Makes `login(1)` quieter                                                                        |
@@ -18,7 +19,7 @@ Contains personal preferences and configurations for everyday commands and progr
 | _npmrc_            | Defaults for `npm-init(1)` for auto populating `package.json` for example                       |
 | _profile_          | Initialization file executed for login shells after `/etc/profile`, prompt settings etc.        |
 | _screenrc_         | Turn off `startup_message` ao.                                                                  |
-| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (e.g., wrapping) are extremely annoying       |
+| _tidyrc_           | As handy as `tidy(1)` may be, some of the defaults (e.g., wrapping) are extremely annoying      |
 | _vimrc_            | Be IMproved                                                                                     |
 | _wgetrc_           | Saner defaults for when downloading pages recursively for example                               |
 
