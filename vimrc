@@ -101,6 +101,9 @@ set undolevels=1000
 " make movement keys wrap to the next/previous line
 set whichwrap=b,s,h,l,<,>,[,]
 
+" use new regular expression engine
+set re=0
+
 " allow highlighting regardless of color scheme
 syntax enable
 
@@ -111,8 +114,6 @@ filetype plugin indent on
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufNewFile,BufRead *.mjs set filetype=javascript
 autocmd BufNewFile,BufRead *.cjs set filetype=javascript
-autocmd BufNewFile,BufRead *.svelte set filetype=html
-autocmd BufNewFile,BufRead *.vue set filetype=html
 
 " fix for syntax highlighting
 autocmd BufEnter * :syntax sync fromstart
