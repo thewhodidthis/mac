@@ -115,9 +115,6 @@ autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufNewFile,BufRead *.mjs set filetype=javascript
 autocmd BufNewFile,BufRead *.cjs set filetype=javascript
 
-" fix for syntax highlighting
-autocmd BufEnter * :syntax sync fromstart
-
 " fix for crontab
 autocmd FileType crontab setlocal nowritebackup
 
